@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Encriptador-Chalenge-Oracle</title>
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	
+</head>
+<body>
+<header>
+	<img src="image/Vector.png" alt="vector de Alura">
+</header>
+<main>
+	<section class="txt" >
+		<textarea name="text" class="text-enc" placeholder="Ingrese texto aqui."></textarea>
+		<div class="btn-input">
+			<input type="button" value="Encriptar" class="btn-encr" onclick="encriptar()">
+			<input type="button" value="Desencriptar" class="btn-descr" onclick="desencriptar()">
+		</div>
+	</section>
+	<section class="txt-encoder" >
+		<div class="container-img">
+			<img src="image/Muñeco.png" alt="muñeco alura" >
+		</div>
+		<div class="text-h3" >
+			<h3>Ningun mensaje fue encontrado</h3>
+		</div>
+		<div class="text-p" >
+			<p>ingrese el texto que desea encriptar o desencriptar</p>
+		</div>
+		<div class="textoE">
+			<h3>Mensaje encriprado: </h3>
+			<p class="resultado"></p>
+		</div>
+		<div class="copy">
+			<input type="button" value="Copy" class="btn-copy">
+		</div>
+	</section>
+</main>
+<footer>
+<p>Todos los derechos reservados Alura y Pierini Nahuel</p>
+</footer>
+<script src="ajax\script.js" ></script>
+</body>
+</html>
