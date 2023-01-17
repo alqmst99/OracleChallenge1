@@ -1,11 +1,12 @@
 *{
-
+	background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(29,82,253,1) 50%, rgba(79,252,69,1) 100%);
 	margin: 0;
 	padding: 0;
 }
 header{
 	width: 100%;
 	height: 50px;
+	background: transparent;
 }
 main{
 	width: 100%;
@@ -16,11 +17,16 @@ section{
 	width: 40%;
 	height: 100%;
 	display: inline-block;
+	background: transparent;
+}
+img{
+	background: transparent;
 }
 .txt{
 	width: 75%;
 	border-radius: 10px;
 	margin-right: 20px;
+	background: transparent;
 }
 .txt-encoder{
 	width: 20%;
@@ -28,12 +34,13 @@ section{
 	border-radius: 10px;
 	box-sizing: border-box;
 	overflow: hidden;
-	background: #ffffff;
-	box-shadow: 5px 5px #999999;
+
+	
 }
 .btn-input{
 	display:block;
 	align-content: center;
+	background: transparent;
 }
 .btn-encr, .btn-descr {
 	width: 35%;
@@ -50,7 +57,7 @@ section{
 	padding: 25px;
 	box-sizing: border-box;
 	overflow: auto;
-	background: #999999;
+	background: transparent;
 	
 }
 footer{
@@ -63,12 +70,15 @@ footer{
 .copy{
 	width: 100%;
 	height: 20%;
+	text-align: center;
+	background: transparent;
 }
 .btn-copy{
-	width: 35%;
+	width: 40%;
 	height: 40%;
 	display: block;
-	margin-top: 25px;
+	margin:auto;
+	margin-top: 20px;
 	border-radius: 10px;
 	background: #aa55ea;
 }
