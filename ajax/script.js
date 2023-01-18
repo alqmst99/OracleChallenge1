@@ -86,3 +86,8 @@ function ocultar(){
     h3.classList.add("ocultar"),
     parr.classList.add("ocultar")
 }
+function copy(){
+    var parr= document.querySelector(".resultado").innerHTML;
+    navigator.clipboard.writeText(parr);
+    alert("te text has copy")
+}
