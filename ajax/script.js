@@ -89,5 +89,5 @@ function ocultar(){
 function copy(){
     var parr= document.querySelector(".resultado").innerHTML;
     navigator.clipboard.writeText(parr);
-    alert("te text has copy")
+    alert("text copy!")
 }
