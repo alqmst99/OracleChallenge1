@@ -103,7 +103,7 @@ footer{
 .ocultar{
 	display: none;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 500px) {
 	main{
 		display: inline;
 		
