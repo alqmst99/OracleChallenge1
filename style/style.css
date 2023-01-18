@@ -1,6 +1,5 @@
 *{
 	background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(29,82,253,1) 50%, rgba(79,252,69,1) 100%);
-	margin: 0;
 	padding: 0;
 }
 header{
@@ -12,6 +11,7 @@ main{
 	width: 100%;
 	height: 90%;
 	display: flex;
+
 	}
 section{
 	width: 40%;
@@ -27,19 +27,38 @@ img{
 	border-radius: 10px;
 	margin-right: 20px;
 	background: transparent;
+	
 }
 .txt-encoder{
 	width: 20%;
 	height: 500px;
 	border-radius: 10px;
 	box-sizing: border-box;
-	overflow: hidden;
+	font-size: 20px;
+	text-align: center;
 
 	
 }
+h3,p, .container-img, div {
+	background: transparent;
+	
+}
+.textoE{
+ width: 100%;
+ height: 70%;
+ padding: 25px;
+ box-sizing: border-box;
+ background: transparent;
+ overflow: hidden;
+}
+.resultado{
+	background: transparent;
+	overflow: hidden;
+}
 .btn-input{
 	display:block;
-	align-content: center;
+	margin: 20px;
+	margin-left: 20%;
 	background: transparent;
 }
 .btn-encr, .btn-descr {
@@ -47,7 +66,6 @@ img{
 	height: 40%;
 	border-radius: 10px;
 	background: #aa55ea;
-	margin: 10px;
 	padding: 10px;
 	align-items: center;
 }
@@ -58,14 +76,10 @@ img{
 	box-sizing: border-box;
 	overflow: auto;
 	background: transparent;
-	
-}
-footer{
+	font-size: 20px;
 	text-align: center;
-	margin-top: 20px;
-}
-.ocultar{
-	display: none;
+	resize: none;
+	border-radius: 10px;
 }
 .copy{
 	width: 100%;
@@ -82,3 +96,42 @@ footer{
 	border-radius: 10px;
 	background: #aa55ea;
 }
+footer{
+	text-align: center;
+	margin-top: 20px;
+}
+.ocultar{
+	display: none;
+}
+@media only screen and (max-width: 500px) {
+	main{
+		display: inline;
+		
+	}
+	.btn-input{
+		margin-left: 20%;
+	}
+	.btn-encr, .btn-descr{
+		width: 60%;
+		height: 60%;
+		
+	}
+	.txt{
+		width: 100%;
+	}	
+	.txt-encoder{
+	width: 100%;
+	height: 300px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+
+	.copy{
+		width: 70%;
+		height: 35%;
+		margin: auto;
+	}
+	
+  }

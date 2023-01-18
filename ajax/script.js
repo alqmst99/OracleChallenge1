@@ -1,11 +1,11 @@
-alert("welcome to the encripter")
+alert("Welcome to the encripter")
 var btnE= document.querySelector(".btn-encr");
 var btnD= document.querySelector(".btn-descr");
 var objet = document.querySelector(".container-img");
 var h3= document.querySelector(".text-h3");
 var parr= document.querySelector(".text-p");
 var txt= document.querySelector(".resultado");
-
+var res= document.querySelector(".textoE")
 function textoR(){
     var area = document.querySelector(".text-enc")
 
@@ -15,13 +15,13 @@ function encriptar(){
     ocultar();
     areaT= textoR();
     txt.textContent = encriptarTxt(areaT);
-    
+    alert("The mesaje is Encript")
 }
 function desencriptar(){
     ocultar();
     var area = textoR();
     txt.textContent = desencriptarTxt(area);
-    alert(txt);
+   alert("The mesaje is Desencript")
 }
 function encriptarTxt(mesaje){
     var texto = mesaje;
@@ -85,9 +85,10 @@ function ocultar(){
     objet.classList.add("ocultar");
     h3.classList.add("ocultar"),
     parr.classList.add("ocultar")
+    res.classList.remove("ocultar")
 }
 function copy(){
     var parr= document.querySelector(".resultado").innerHTML;
     navigator.clipboard.writeText(parr);
-    alert("text copy!")
+    alert("Text Copy!")
 }
